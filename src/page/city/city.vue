@@ -60,6 +60,7 @@
 
         methods:{
             initData(){
+                console.log('hjx-20210806-1')
                 //获取搜索历史记录
                 if (getStore('placeHistory')) {
                     this.placelist = JSON.parse(getStore('placeHistory'));
